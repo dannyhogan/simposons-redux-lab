@@ -8,8 +8,8 @@ import Quotes from '../../components/Quote/Quote';
 class SimpsonsQuote extends Component {
 
   static propTypes = {
-    characters: PropTypes.array,
-    fetch: PropTypes.func
+    characters: PropTypes.array.isRequired,
+    fetch: PropTypes.func.isRequired
   }
 
   componentDidMount() {
